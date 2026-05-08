@@ -1,0 +1,17 @@
+SOC INCIDENT REPORT
+
+Alert ID: SOC-2026-014
+
+A workstation attempted 135 failed login attempts within 2 minutes from IP address 185.45.22.14.
+
+Questions:
+1. What type of cyber attack is shown?
+	-Brute-force attack.
+2. What indicators make the activity suspicious?
+	-135 failed logins in 2 minutes from one IP address.
+3. What immediate action should the SOC analyst perform?
+	-Block the IP address and investigate the workstation.
+4. What severity level should be assigned?
+	-High severity.
+5. Give one recommendation to prevent this attack.
+	-Enable account lockout after multiple failed login attempts.
